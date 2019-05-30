@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "hyde-hyde"
 theme = "hyde-hyde"
 
+publishDir = "docs"
+
 ## Social Accounts
 [params.social]
     github = "trguduru"
