@@ -28,7 +28,7 @@
       <guid>https://trguduru.github.io/posts/my-first-post/</guid>
       <description>Header 1 This is the content of header 1
 sub header sub header content some code goes here
-public class Awesome{ public static void main(String [] args){ System.out.println(&amp;quot;Some Code highlighted&amp;quot;); } }  Header 2 Description about 2
+public class Awesome{ public static void main(String [] args){ System.out.println(&amp;#34;Some Code highlighted&amp;#34;); } } Header 2 Description about 2
 notes awesome notes
 comments awesome comments</description>
     </item>

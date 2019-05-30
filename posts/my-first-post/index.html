@@ -24,14 +24,14 @@
 <meta name="twitter:title" content="My First Post"/>
 <meta name="twitter:description" content="Header 1 This is the content of header 1
 sub header sub header content some code goes here
-public class Awesome{ public static void main(String [] args){ System.out.println(&quot;Some Code highlighted&quot;); } }  Header 2 Description about 2
+public class Awesome{ public static void main(String [] args){ System.out.println(&#34;Some Code highlighted&#34;); } } Header 2 Description about 2
 notes awesome notes
 comments awesome comments"/>
 
 <meta property="og:title" content="My First Post" />
 <meta property="og:description" content="Header 1 This is the content of header 1
 sub header sub header content some code goes here
-public class Awesome{ public static void main(String [] args){ System.out.println(&quot;Some Code highlighted&quot;); } }  Header 2 Description about 2
+public class Awesome{ public static void main(String [] args){ System.out.println(&#34;Some Code highlighted&#34;); } } Header 2 Description about 2
 notes awesome notes
 comments awesome comments" />
 <meta property="og:type" content="article" />
@@ -86,10 +86,6 @@ comments awesome comments" />
       </span>
       
       
-        <div class="author-image">
-          <img src="https://avatars2.githubusercontent.com/u/47073528?s=460&v=4" class="img--circle img--headshot element--center" alt="github">
-        </div>
-      
       <p class="site__description">
          thoughts 
       </p>
@@ -120,7 +116,7 @@ comments awesome comments" />
 		 
 			 
 				<li>
-					<a href="/tags/">
+					<a href="/tags">
 						<span>Tags</span>
 					</a>
 				</li>
@@ -240,14 +236,11 @@ comments awesome comments" />
 
 <p>sub header content
  some code goes here</p>
-
-<pre><code class="language-java"> public class Awesome{
-    public static void main(String [] args){
-        System.out.println(&quot;Some Code highlighted&quot;);
-    }
- }
-</code></pre>
-
+<div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"> <span style="color:#008000;font-weight:bold">public</span> <span style="color:#008000;font-weight:bold">class</span> <span style="color:#00f;font-weight:bold">Awesome</span><span style="color:#666">{</span>
+    <span style="color:#008000;font-weight:bold">public</span> <span style="color:#008000;font-weight:bold">static</span> <span style="color:#b00040">void</span> <span style="color:#00f">main</span><span style="color:#666">(</span>String <span style="color:#666">[]</span> args<span style="color:#666">){</span>
+        System<span style="color:#666">.</span><span style="color:#7d9029">out</span><span style="color:#666">.</span><span style="color:#7d9029">println</span><span style="color:#666">(</span><span style="color:#ba2121">&#34;Some Code highlighted&#34;</span><span style="color:#666">);</span>
+    <span style="color:#666">}</span>
+ <span style="color:#666">}</span></code></pre></div>
 <h2 id="header-2">Header 2</h2>
 
 <p>Description about 2</p>
@@ -263,20 +256,39 @@ comments awesome comments" />
   </div>
   
 
-<div class="navigation navigation-single">
-    
-    
-    <a href="/posts/my-second-post/" class="navigation-next">
-      <span class="navigation-tittle">My Second Post</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
-    </a>
-    
-</div>
+
 
 
   
+    
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
 
-  
+    (function () {
+    if (location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "") {
+      return;
+    }
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    var disqus_shortname = 'tguduru';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || 
+      document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by
+  <span class="logo-disqus">Disqus</span>
+</a>
+
     
 
 

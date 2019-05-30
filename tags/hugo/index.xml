@@ -6,10 +6,19 @@
     <description>Recent content in hugo on tguduru&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 21:31:12 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2019 21:31:17 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Second Post</title>
+      <link>https://trguduru.github.io/posts/my-second-post/</link>
+      <pubDate>Tue, 28 May 2019 21:31:17 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/posts/my-second-post/</guid>
+      <description>Second Post</description>
+    </item>
     
     <item>
       <title>My First Post</title>
@@ -19,7 +28,7 @@
       <guid>https://trguduru.github.io/posts/my-first-post/</guid>
       <description>Header 1 This is the content of header 1
 sub header sub header content some code goes here
-public class Awesome{ public static void main(String [] args){ System.out.println(&amp;quot;Some Code highlighted&amp;quot;); } }  Header 2 Description about 2
+public class Awesome{ public static void main(String [] args){ System.out.println(&amp;#34;Some Code highlighted&amp;#34;); } } Header 2 Description about 2
 notes awesome notes
 comments awesome comments</description>
     </item>
