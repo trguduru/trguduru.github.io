@@ -22,10 +22,18 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="My First Post"/>
-<meta name="twitter:description" content="First Post"/>
+<meta name="twitter:description" content="Header 1 This is the content of header 1
+sub header sub header content some code goes here
+public class Awesome{ public static void main(String [] args){ System.out.println(&quot;Some Code highlighted&quot;); } }  Header 2 Description about 2
+notes awesome notes
+comments awesome comments"/>
 
 <meta property="og:title" content="My First Post" />
-<meta property="og:description" content="First Post" />
+<meta property="og:description" content="Header 1 This is the content of header 1
+sub header sub header content some code goes here
+public class Awesome{ public static void main(String [] args){ System.out.println(&quot;Some Code highlighted&quot;); } }  Header 2 Description about 2
+notes awesome notes
+comments awesome comments" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://trguduru.github.io/posts/my-first-post/" />
 <meta property="article:published_time" content="2019-05-28T21:31:12-05:00"/>
@@ -33,6 +41,11 @@
 
 
     
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+
+
 
 
 
@@ -43,6 +56,11 @@
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+
+<link rel="stylesheet" href="/scss/hugo-toc.8549a64d301421b4256ea9a0d5ca8b99178799f569d5d2daeb95f24cef3ce6b7.css" integrity="sha256-hUmmTTAUIbQlbqmg1cqLmReHmfVp1dLa65XyTO885rc=">
 
 
 
@@ -186,8 +204,61 @@
   </header>
   
   
+  
+    <div class="toc-wrapper">
+      <input type="checkbox" id="tocToggle">
+      <label for="tocToggle">Table of Content</label>
+      
+          <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#header-1">Header 1</a>
+<ul>
+<li><a href="#sub-header">sub header</a></li>
+</ul></li>
+<li><a href="#header-2">Header 2</a>
+<ul>
+<li><a href="#notes">notes</a></li>
+<li><a href="#comments">comments</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+      
+    </div>
+  
+  
   <div class="post">
-    <p>First Post</p>
+    
+
+<h2 id="header-1">Header 1</h2>
+
+<p>This is the content of header 1</p>
+
+<h3 id="sub-header">sub header</h3>
+
+<p>sub header content
+ some code goes here</p>
+
+<pre><code class="language-java"> public class Awesome{
+    public static void main(String [] args){
+        System.out.println(&quot;Some Code highlighted&quot;);
+    }
+ }
+</code></pre>
+
+<h2 id="header-2">Header 2</h2>
+
+<p>Description about 2</p>
+
+<h3 id="notes">notes</h3>
+
+<p>awesome notes</p>
+
+<h3 id="comments">comments</h3>
+
+<p>awesome comments</p>
 
   </div>
   
@@ -221,11 +292,16 @@
 
     
     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+        
+    
     <script type="text/javascript">
         
         hljs.initHighlightingOnLoad();
     </script>
     
+
+
 
 
 
