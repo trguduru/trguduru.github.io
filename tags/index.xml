@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on hyde-hyde</title>
+    <title>Tags on tguduru&#39;s</title>
     <link>https://trguduru.github.io/tags/</link>
-    <description>Recent content in Tags on hyde-hyde</description>
+    <description>Recent content in Tags on tguduru&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 28 May 2019 21:31:12 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dev</title>
+      <link>https://trguduru.github.io/tags/dev/</link>
+      <pubDate>Tue, 28 May 2019 21:31:12 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://trguduru.github.io/tags/hugo/</link>
+      <pubDate>Tue, 28 May 2019 21:31:12 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hyde-hyde</title>
+      <link>https://trguduru.github.io/tags/hyde-hyde/</link>
+      <pubDate>Tue, 28 May 2019 21:31:12 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/hyde-hyde/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

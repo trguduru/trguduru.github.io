@@ -25,17 +25,36 @@
   </url>
   
   <url>
+    <loc>https://trguduru.github.io/tags/</loc>
+    <lastmod>2019-05-28T21:31:12-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/dev/</loc>
+    <lastmod>2019-05-28T21:31:12-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/hugo/</loc>
+    <lastmod>2019-05-28T21:31:12-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/hyde-hyde/</loc>
+    <lastmod>2019-05-28T21:31:12-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://trguduru.github.io/about/</loc>
     <lastmod>2019-05-28T21:30:35-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
