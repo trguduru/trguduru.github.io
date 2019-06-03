@@ -6,10 +6,21 @@
     <description>Recent content in hyde-hyde on tguduru&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 21:31:12 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 23:01:16 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/tags/hyde-hyde/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Third Post</title>
+      <link>https://trguduru.github.io/posts/my-third-post/</link>
+      <pubDate>Thu, 30 May 2019 23:01:16 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/posts/my-third-post/</guid>
+      <description>Insert Lead paragraph here.
+A augue nunc lacus auctor efficitur tempor placerat, dictum volutpat mi vitae viverra porta non sem, himenaeos senectus vivamus potenti cubilia sollicitudin. Curae cursus inceptos tincidunt magna mi nibh ad enim etiam, molestie eu quis primis hendrerit taciti phasellus. Feugiat ultricies dictumst iaculis potenti odio laoreet urna at, ultrices curae leo accumsan proin sem lobortis.
+Heading 2 Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</description>
+    </item>
     
     <item>
       <title>My First Post</title>
@@ -19,9 +30,9 @@
       <guid>https://trguduru.github.io/posts/my-first-post/</guid>
       <description>Header 1 This is the content of header 1
 sub header sub header content some code goes here
-public class Awesome{ public static void main(String [] args){ System.out.println(&amp;#34;Some Code highlighted&amp;#34;); } } Header 2 Description about 2
-notes awesome notes
-comments awesome comments</description>
+1 2 3 4 5  public class Awesome{ public static void main(String [] args){ System.out.println(&amp;#34;Some Code highlighted&amp;#34;); } }   Header 2 Description about 2
+some more code here
+1 2 3 4 5  public class Awesome{ public static void main(String [] args){ System.out.println(&amp;#34;Some Code highlighted&amp;#34;); } }   notes awesome notes</description>
     </item>
     
   </channel>
