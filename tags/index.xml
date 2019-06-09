@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on tguduru&#39;s</title>
+    <title>Tags on tguduru&#39;s thoughts</title>
     <link>https://trguduru.github.io/tags/</link>
-    <description>Recent content in Tags on tguduru&#39;s</description>
+    <description>Recent content in Tags on tguduru&#39;s thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 30 May 2019 23:01:16 -0500</lastBuildDate>
+    <copyright>Guduru Thirupathi Reddy</copyright>
+    <lastBuildDate>Sun, 09 Jun 2019 13:12:19 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>dev</title>
       <link>https://trguduru.github.io/tags/dev/</link>
-      <pubDate>Thu, 30 May 2019 23:01:16 -0500</pubDate>
+      <pubDate>Sun, 09 Jun 2019 13:12:19 -0500</pubDate>
       
       <guid>https://trguduru.github.io/tags/dev/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>hugo</title>
       <link>https://trguduru.github.io/tags/hugo/</link>
-      <pubDate>Thu, 30 May 2019 23:01:16 -0500</pubDate>
+      <pubDate>Sun, 09 Jun 2019 13:12:19 -0500</pubDate>
       
       <guid>https://trguduru.github.io/tags/hugo/</guid>
       <description></description>
@@ -32,9 +32,72 @@
     <item>
       <title>hyde-hyde</title>
       <link>https://trguduru.github.io/tags/hyde-hyde/</link>
-      <pubDate>Thu, 30 May 2019 23:01:16 -0500</pubDate>
+      <pubDate>Sun, 09 Jun 2019 13:12:19 -0500</pubDate>
       
       <guid>https://trguduru.github.io/tags/hyde-hyde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>demo</title>
+      <link>https://trguduru.github.io/tags/demo/</link>
+      <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://trguduru.github.io/tags/java/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://trguduru.github.io/tags/development/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://trguduru.github.io/tags/go/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://trguduru.github.io/tags/golang/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://trguduru.github.io/tags/templates/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://trguduru.github.io/tags/themes/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
