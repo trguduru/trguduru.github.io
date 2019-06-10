@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://trguduru.github.io/categories/</loc>
+    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://trguduru.github.io/2019/06/my-third-post/</loc>
     <lastmod>2019-06-09T16:28:54-05:00</lastmod>
   </url>
@@ -14,14 +20,26 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/</loc>
+    <loc>https://trguduru.github.io/categories/availability/</loc>
     <lastmod>2019-06-09T16:28:54-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/categories/</loc>
-    <lastmod>2019-06-09T13:53:56-05:00</lastmod>
+    <loc>https://trguduru.github.io/categories/java/</loc>
+    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/categories/microservices/</loc>
+    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/</loc>
+    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,13 +55,13 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/categories/dev/</loc>
+    <loc>https://trguduru.github.io/tags/dev/</loc>
     <lastmod>2019-06-09T13:53:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/tags/dev/</loc>
+    <loc>https://trguduru.github.io/categories/dev/</loc>
     <lastmod>2019-06-09T13:53:56-05:00</lastmod>
     <priority>0</priority>
   </url>
