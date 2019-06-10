@@ -84,27 +84,6 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/2015/10/first-post/</loc>
-    <lastmod>2015-10-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/tags/demo/</loc>
-    <lastmod>2015-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2015/09/erster-artikel/</loc>
-    <lastmod>2015-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2015/01/primer-comentario/</loc>
-    <lastmod>2015-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://trguduru.github.io/2014/09/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
@@ -129,62 +108,48 @@
   
   <url>
     <loc>https://trguduru.github.io/2014/04/hugo-template-primer/</loc>
-    <lastmod>2014-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/demo/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/tags/development/</loc>
-    <lastmod>2014-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/tags/go/</loc>
-    <lastmod>2014-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/tags/golang/</loc>
-    <lastmod>2014-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/tags/templates/</loc>
-    <lastmod>2014-04-10T00:00:00+00:00</lastmod>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/tags/themes/</loc>
-    <lastmod>2014-04-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2014/04/hugo-template-primer/</loc>
-    <lastmod>2014-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2014/04/hugo-template-primer/</loc>
     <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/2014/04/getting-started-with-hugo/</loc>
     <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2014/04/getting-started-with-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2014/04/getting-started-with-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
