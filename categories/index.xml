@@ -47,23 +47,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Development</title>
-      <link>https://trguduru.github.io/categories/development/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://trguduru.github.io/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://trguduru.github.io/categories/golang/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://trguduru.github.io/categories/golang/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
