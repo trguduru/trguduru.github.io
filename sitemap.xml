@@ -4,7 +4,54 @@
   
   <url>
     <loc>https://trguduru.github.io/categories/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/2019/06/java-8-date-time-explained-series-part-1/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/post/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/date-time/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/categories/java/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/java/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/java8/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/</loc>
+    <lastmod>2019-06-11T21:37:28-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,19 +61,7 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/post/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://trguduru.github.io/categories/availability/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/categories/java/</loc>
     <lastmod>2019-06-09T16:28:54-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -38,20 +73,8 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://trguduru.github.io/2019/06/my-second-post/</loc>
     <lastmod>2019-06-09T13:53:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/tags/</loc>
-    <lastmod>2019-06-09T13:53:56-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

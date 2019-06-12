@@ -9,15 +9,15 @@
     property="og:description">
 <meta content="" name="keywords">
 
-<meta property="og:title" content="Java" />
+<meta property="og:title" content="java" />
 <meta property="og:description" content="Tech blogs" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://trguduru.github.io/tags/java/" />
 
-<meta property="og:updated_time" content="2014-09-28T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2019-06-11T21:37:28-05:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Java"/>
+<meta name="twitter:title" content="java"/>
 <meta name="twitter:description" content="Tech blogs"/>
 
 
@@ -26,7 +26,7 @@
 
     <title>
       
-        Java - tguduru&#39;s thoughts
+        java - tguduru&#39;s thoughts
       
     </title>
 
@@ -104,7 +104,7 @@ tguduru&#39;s thoughts
         <article class="blog-post">
     <header>
         <h2 class="blog-post-title">
-    <a class="text-dark" href="/2014/09/creating-a-new-theme/">Creating a New Theme</a>
+    <a class="text-dark" href="/2019/06/java-8-date-time-explained-series-part-1/">Java 8 Date Time Explained Series - Part 1</a>
 </h2>
 
         
@@ -112,7 +112,7 @@ tguduru&#39;s thoughts
 
 <div class="blog-post-date text-secondary">
     
-        <time datetime="2014-09-28">Sep 28, 2014</time>
+        <time datetime="2019-06-11">Jun 11, 2019</time>
     
 </div>
 
@@ -120,7 +120,11 @@ tguduru&#39;s thoughts
 <div class="blog-post-tags text-secondary">
     <strong>Tags:</strong>
     
-        <a class="badge badge-primary" href="/tags/java">Java</a>
+        <a class="badge badge-primary" href="/tags/java">java</a>
+    
+        <a class="badge badge-primary" href="/tags/java8">java8</a>
+    
+        <a class="badge badge-primary" href="/tags/date-time">date-time</a>
     
 </div>
 
@@ -128,18 +132,18 @@ tguduru&#39;s thoughts
 <div class="blog-post-categories text-secondary">
     <strong>Categories:</strong>
     
-        <a class="badge badge-primary" href="/categories/development">Development</a>
-    
-        <a class="badge badge-primary" href="/categories/golang">golang</a>
+        <a class="badge badge-primary" href="/categories/java">java</a>
     
 </div>
 
     </header>
-    Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.
+    Background Java has introduced improved date time APIs in Java 8 release by incorporating joda-time.
+These new APIs under java.time package. java.time package contains APIs for dates, times, instants, time-zones and durations.
+There are 4 categories in these APIs
+ Instants (a point in time since 1970) Local date time (a date &amp; time local to the consumer of the API) Time zone date time (A date time in given time zone) General purpose APIs like Clock, Duration, Period etc&hellip;  In this part-1 of date time series we will conver the Instant.
     
     <p></p>
-    <a href="/2014/09/creating-a-new-theme/">Read More →</a>
+    <a href="/2019/06/java-8-date-time-explained-series-part-1/">Read More →</a>
     
 </article>
 
@@ -165,10 +169,16 @@ We&rsquo;ll start with creating a new site with a very basic template.
         
             
             <li>
-                <a href="/2019/06/my-third-post/">My Third Post</a>
+                <a href="/2019/06/java-8-date-time-explained-series-part-1/">Java 8 Date Time Explained Series - Part 1</a>
             </li>
             
         
+            
+        
+            
+            <li>
+                <a href="/2019/06/my-third-post/">My Third Post</a>
+            </li>
             
         
             
@@ -180,30 +190,6 @@ We&rsquo;ll start with creating a new site with a very basic template.
             
             <li>
                 <a href="/2019/06/my-first-post/">My First Post</a>
-            </li>
-            
-        
-            
-            <li>
-                <a href="/2014/09/creating-a-new-theme/">Creating a New Theme</a>
-            </li>
-            
-        
-            
-            <li>
-                <a href="/2014/04/hugo-template-primer/">(Hu)go Template Primer</a>
-            </li>
-            
-        
-            
-            <li>
-                <a href="/2014/04/getting-started-with-hugo/">Getting Started with Hugo</a>
-            </li>
-            
-        
-            
-            <li>
-                <a href="/2014/03/migrate-to-hugo-from-jekyll/">Migrate to Hugo from Jekyll</a>
             </li>
             
         
@@ -222,10 +208,6 @@ We&rsquo;ll start with creating a new site with a very basic template.
             
             <a class="badge badge-primary" href="/categories/dev">dev</a>
             
-            <a class="badge badge-primary" href="/categories/development">development</a>
-            
-            <a class="badge badge-primary" href="/categories/golang">golang</a>
-            
             <a class="badge badge-primary" href="/categories/java">java</a>
             
             <a class="badge badge-primary" href="/categories/microservices">microservices</a>
@@ -237,15 +219,9 @@ We&rsquo;ll start with creating a new site with a very basic template.
         <h4>Tags</h4>
         <p>
             
-            <a class="badge badge-primary" href="/tags/demo">demo</a>
+            <a class="badge badge-primary" href="/tags/date-time">date-time</a>
             
             <a class="badge badge-primary" href="/tags/dev">dev</a>
-            
-            <a class="badge badge-primary" href="/tags/development">development</a>
-            
-            <a class="badge badge-primary" href="/tags/go">go</a>
-            
-            <a class="badge badge-primary" href="/tags/golang">golang</a>
             
             <a class="badge badge-primary" href="/tags/hugo">hugo</a>
             
@@ -253,9 +229,7 @@ We&rsquo;ll start with creating a new site with a very basic template.
             
             <a class="badge badge-primary" href="/tags/java">java</a>
             
-            <a class="badge badge-primary" href="/tags/templates">templates</a>
-            
-            <a class="badge badge-primary" href="/tags/themes">themes</a>
+            <a class="badge badge-primary" href="/tags/java8">java8</a>
             
         </p>
         
