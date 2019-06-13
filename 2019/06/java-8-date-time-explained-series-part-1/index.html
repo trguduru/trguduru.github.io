@@ -158,13 +158,15 @@ tguduru&#39;s thoughts
 
 <h3 id="instant">Instant</h3>
 
-<p>Instant is the point in the time since 1970. Its the epoch equivalent in Java. Its time is always in <strong>UTC</strong>.</p>
+<p>Instant is the point in the time since 1970. Its the unix like epoch equivalent in Java. Its time is always in <strong>UTC</strong>.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">java.time.Instant</span><span style="color:#666">;</span>
 <span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">Java8Instant</span> <span style="color:#666">{</span>
     <span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">static</span> <span style="color:#902000">void</span> <span style="color:#06287e">main</span><span style="color:#666">(</span>String<span style="color:#666">[]</span> args<span style="color:#666">)</span> <span style="color:#666">{</span>
         System<span style="color:#666">.</span><span style="color:#4070a0">out</span><span style="color:#666">.</span><span style="color:#4070a0">println</span><span style="color:#666">(</span>Instant<span style="color:#666">.</span><span style="color:#4070a0">now</span><span style="color:#666">());</span> <span style="color:#60a0b0;font-style:italic">// prints current UTC date time
 </span><span style="color:#60a0b0;font-style:italic"></span>    <span style="color:#666">}</span>
 <span style="color:#666">}</span></code></pre></div>
+<p>Instant needs to hold a range longer than java long range so it will hold epoch seconds in long and nanosecond of the second in java int types.</p>
+
 
     
 
