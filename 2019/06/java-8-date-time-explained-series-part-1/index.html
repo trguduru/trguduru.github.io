@@ -5,15 +5,12 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta
-    content="Tech blogs - "
+    content="Tech blogs - java 8 date time APIs explained, java.time.Instant"
     property="og:description">
-<meta content="" name="keywords">
+<meta content="java 8, Instant, java.time.Instant" name="keywords">
 
 <meta property="og:title" content="Java 8 Date Time Explained Series - Part 1" />
-<meta property="og:description" content="Background Java has introduced improved date time APIs in Java 8 release by incorporating joda-time.
-These new APIs under java.time package. java.time package contains APIs for dates, times, instants, time-zones and durations.
-There are 4 categories in these APIs
- Instants (a point in time since 1970) Local date time (a date &amp; time local to the consumer of the API) Time zone date time (A date time in given time zone) General purpose APIs like Clock, Duration, Period etc&hellip;  In this part-1 of date time series we will conver the Instant." />
+<meta property="og:description" content="java 8 date time APIs explained, java.time.Instant" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://trguduru.github.io/2019/06/java-8-date-time-explained-series-part-1/" />
 <meta property="article:published_time" content="2019-06-11T21:37:28-05:00"/>
@@ -21,10 +18,7 @@ There are 4 categories in these APIs
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Java 8 Date Time Explained Series - Part 1"/>
-<meta name="twitter:description" content="Background Java has introduced improved date time APIs in Java 8 release by incorporating joda-time.
-These new APIs under java.time package. java.time package contains APIs for dates, times, instants, time-zones and durations.
-There are 4 categories in these APIs
- Instants (a point in time since 1970) Local date time (a date &amp; time local to the consumer of the API) Time zone date time (A date time in given time zone) General purpose APIs like Clock, Duration, Period etc&hellip;  In this part-1 of date time series we will conver the Instant."/>
+<meta name="twitter:description" content="java 8 date time APIs explained, java.time.Instant"/>
 
 
 
@@ -131,6 +125,8 @@ tguduru&#39;s thoughts
     
         <a class="badge badge-primary" href="/categories/java">java</a>
     
+        <a class="badge badge-primary" href="/categories/dev">dev</a>
+    
 </div>
 
     <hr>
@@ -159,6 +155,8 @@ tguduru&#39;s thoughts
 <h3 id="instant">Instant</h3>
 
 <p>Instant is the point in the time since 1970. Its the unix like epoch equivalent in Java. Its time is always in <strong>UTC</strong>.</p>
+
+<p>Instant is an immutable class and a value class.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">java.time.Instant</span><span style="color:#666">;</span>
 <span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">Java8Instant</span> <span style="color:#666">{</span>
     <span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">static</span> <span style="color:#902000">void</span> <span style="color:#06287e">main</span><span style="color:#666">(</span>String<span style="color:#666">[]</span> args<span style="color:#666">)</span> <span style="color:#666">{</span>
@@ -166,6 +164,8 @@ tguduru&#39;s thoughts
 </span><span style="color:#60a0b0;font-style:italic"></span>    <span style="color:#666">}</span>
 <span style="color:#666">}</span></code></pre></div>
 <p>Instant needs to hold a range longer than java long range so it will hold epoch seconds in long and nanosecond of the second in java int types.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">        System<span style="color:#666">.</span><span style="color:#4070a0">out</span><span style="color:#666">.</span><span style="color:#4070a0">println</span><span style="color:#666">(</span>Instant<span style="color:#666">.</span><span style="color:#4070a0">EPOCH</span><span style="color:#666">);</span> <span style="color:#666">//</span> prints 1970 epoch seconds</code></pre></div>
+<p>Java Instant supports until 1000000000<sup>th</sup> year 😱.</p>
 
 
     
