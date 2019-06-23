@@ -12,44 +12,13 @@
     
     
     <item>
-      <title>Getting Started With Docker</title>
-      <link>https://trguduru.github.io/2019/06/getting-started-with-docker/</link>
+      <title>Create a Docker Image for RESTful Java Service</title>
+      <link>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</link>
       <pubDate>Fri, 14 Jun 2019 22:50:40 -0500</pubDate>
       
-      <guid>https://trguduru.github.io/2019/06/getting-started-with-docker/</guid>
-      <description>Introduction Docker is a platform for software engineering community to build and run applications with containers.</description>
-    </item>
-    
-    <item>
-      <title>My Third Post</title>
-      <link>https://trguduru.github.io/2019/06/my-third-post/</link>
-      <pubDate>Sun, 09 Jun 2019 16:28:54 -0500</pubDate>
-      
-      <guid>https://trguduru.github.io/2019/06/my-third-post/</guid>
-      <description>Insert Lead paragraph here.
-A augue nunc lacus auctor efficitur tempor placerat, dictum volutpat mi vitae viverra porta non sem, himenaeos senectus vivamus potenti cubilia sollicitudin. Curae cursus inceptos tincidunt magna mi nibh ad enim etiam, molestie eu quis primis hendrerit taciti phasellus. Feugiat ultricies dictumst iaculis potenti odio laoreet urna at, ultrices curae leo accumsan proin sem lobortis.
-Heading 2 Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</description>
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>https://trguduru.github.io/2019/06/my-second-post/</link>
-      <pubDate>Sun, 09 Jun 2019 13:53:56 -0500</pubDate>
-      
-      <guid>https://trguduru.github.io/2019/06/my-second-post/</guid>
-      <description>Insert Lead paragraph here.
-A augue nunc lacus auctor efficitur tempor placerat, dictum volutpat mi vitae viverra porta non sem, himenaeos senectus vivamus potenti cubilia sollicitudin. Curae cursus inceptos tincidunt magna mi nibh ad enim etiam, molestie eu quis primis hendrerit taciti phasellus. Feugiat ultricies dictumst iaculis potenti odio laoreet urna at, ultrices curae leo accumsan proin sem lobortis.
-Heading 2 Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://trguduru.github.io/2019/06/my-first-post/</link>
-      <pubDate>Sun, 09 Jun 2019 13:12:19 -0500</pubDate>
-      
-      <guid>https://trguduru.github.io/2019/06/my-first-post/</guid>
-      <description>Heading1 A augue nunc lacus auctor efficitur tempor placerat, dictum volutpat mi vitae viverra porta non sem, himenaeos senectus vivamus potenti cubilia sollicitudin. Curae cursus inceptos tincidunt magna mi nibh ad enim etiam, molestie eu quis primis hendrerit taciti phasellus. Feugiat ultricies dictumst iaculis potenti odio laoreet urna at, ultrices curae leo accumsan proin sem lobortis.
-Heading 2 Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</description>
+      <guid>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</guid>
+      <description>Introduction Docker is a container platform to build and run applications within containers. These docker containers are very light weight compared to virtual machines and are standalone software packages which can run anywhere where docker engine installed. For detailed instructions to install docker see here.
+To deploy a RESTful Java service onto a docker image we need o build the image with the following layers from bottom up. Here are the required software packges need to be installed</description>
     </item>
     
     <item>

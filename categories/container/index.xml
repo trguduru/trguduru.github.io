@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>Getting Started With Docker</title>
-      <link>https://trguduru.github.io/2019/06/getting-started-with-docker/</link>
+      <title>Create a Docker Image for RESTful Java Service</title>
+      <link>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</link>
       <pubDate>Fri, 14 Jun 2019 22:50:40 -0500</pubDate>
       
-      <guid>https://trguduru.github.io/2019/06/getting-started-with-docker/</guid>
-      <description>Introduction Docker is a platform for software engineering community to build and run applications with containers.</description>
+      <guid>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</guid>
+      <description>Introduction Docker is a container platform to build and run applications within containers. These docker containers are very light weight compared to virtual machines and are standalone software packages which can run anywhere where docker engine installed. For detailed instructions to install docker see here.
+To deploy a RESTful Java service onto a docker image we need o build the image with the following layers from bottom up. Here are the required software packges need to be installed</description>
     </item>
     
   </channel>

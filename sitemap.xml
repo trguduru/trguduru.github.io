@@ -9,7 +9,7 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/2019/06/getting-started-with-docker/</loc>
+    <loc>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</loc>
     <lastmod>2019-06-14T22:50:40-05:00</lastmod>
   </url>
   
@@ -44,13 +44,13 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/tags/oracle/</loc>
+    <loc>https://trguduru.github.io/categories/java/</loc>
     <lastmod>2019-06-14T22:50:40-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/categories/oracle/</loc>
+    <loc>https://trguduru.github.io/tags/java/</loc>
     <lastmod>2019-06-14T22:50:40-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -59,63 +59,6 @@
     <loc>https://trguduru.github.io/</loc>
     <lastmod>2019-06-14T22:50:40-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2019/06/my-third-post/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/categories/availability/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/categories/java/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/categories/microservices/</loc>
-    <lastmod>2019-06-09T16:28:54-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2019/06/my-second-post/</loc>
-    <lastmod>2019-06-09T13:53:56-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/tags/dev/</loc>
-    <lastmod>2019-06-09T13:53:56-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/categories/dev/</loc>
-    <lastmod>2019-06-09T13:53:56-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/tags/hugo/</loc>
-    <lastmod>2019-06-09T13:53:56-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/tags/hyde-hyde/</loc>
-    <lastmod>2019-06-09T13:53:56-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/2019/06/my-first-post/</loc>
-    <lastmod>2019-06-09T13:12:19-05:00</lastmod>
   </url>
   
   <url>

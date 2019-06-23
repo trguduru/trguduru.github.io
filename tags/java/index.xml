@@ -6,21 +6,19 @@
     <description>Recent content in java on tguduru&#39;s thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Guduru Thirupathi Reddy</copyright>
-    <lastBuildDate>Tue, 11 Jun 2019 21:37:28 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 22:50:40 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Java 8 Date Time Explained Series - Part 1</title>
-      <link>https://trguduru.github.io/2019/06/java-8-date-time-explained-series-part-1/</link>
-      <pubDate>Tue, 11 Jun 2019 21:37:28 -0500</pubDate>
+      <title>Create a Docker Image for RESTful Java Service</title>
+      <link>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</link>
+      <pubDate>Fri, 14 Jun 2019 22:50:40 -0500</pubDate>
       
-      <guid>https://trguduru.github.io/2019/06/java-8-date-time-explained-series-part-1/</guid>
-      <description>Background Java has introduced improved date time APIs in Java 8 release by incorporating joda-time.
-These new APIs under java.time package. java.time package contains APIs for dates, times, instants, time-zones and durations.
-There are 4 categories in these APIs
- Instants (a point in time since 1970) Local date time (a date &amp;amp; time local to the consumer of the API) Time zone date time (A date time in given time zone) General purpose APIs like Clock, Duration, Period etc&amp;hellip;  In this part-1 of date time series we will conver the Instant.</description>
+      <guid>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</guid>
+      <description>Introduction Docker is a container platform to build and run applications within containers. These docker containers are very light weight compared to virtual machines and are standalone software packages which can run anywhere where docker engine installed. For detailed instructions to install docker see here.
+To deploy a RESTful Java service onto a docker image we need o build the image with the following layers from bottom up. Here are the required software packges need to be installed</description>
     </item>
     
   </channel>
