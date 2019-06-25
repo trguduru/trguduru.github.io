@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on tguduru&#39;s thoughts</title>
+    <title>Categories on &#39;s thoughts</title>
     <link>https://trguduru.github.io/categories/</link>
-    <description>Recent content in Categories on tguduru&#39;s thoughts</description>
+    <description>Recent content in Categories on &#39;s thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Guduru Thirupathi Reddy</copyright>
-    <lastBuildDate>Fri, 14 Jun 2019 22:50:40 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2019 16:01:30 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>java</title>
+      <link>https://trguduru.github.io/categories/java/</link>
+      <pubDate>Mon, 24 Jun 2019 16:01:30 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/categories/java/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>container</title>
@@ -26,15 +35,6 @@
       <pubDate>Fri, 14 Jun 2019 22:50:40 -0500</pubDate>
       
       <guid>https://trguduru.github.io/categories/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>java</title>
-      <link>https://trguduru.github.io/categories/java/</link>
-      <pubDate>Fri, 14 Jun 2019 22:50:40 -0500</pubDate>
-      
-      <guid>https://trguduru.github.io/categories/java/</guid>
       <description></description>
     </item>
     

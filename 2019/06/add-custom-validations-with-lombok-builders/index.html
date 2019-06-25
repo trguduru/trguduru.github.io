@@ -5,28 +5,28 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta
-    content="Tech blogs - How To: Create a Docker Image for RESTful Java Service"
+    content="Tech blogs - Example explains how we can add custom validations with lombok builders"
     property="og:description">
-<meta content="docker, java, rest" name="keywords">
+<meta content="" name="keywords">
 
-<meta property="og:title" content="Create a Docker Image for RESTful Java Service" />
-<meta property="og:description" content="How To: Create a Docker Image for RESTful Java Service" />
+<meta property="og:title" content="Add Custom Validations With Lombok Builders" />
+<meta property="og:description" content="Example explains how we can add custom validations with lombok builders" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/" />
-<meta property="article:published_time" content="2019-06-14T22:50:40-05:00"/>
-<meta property="article:modified_time" content="2019-06-14T22:50:40-05:00"/>
+<meta property="og:url" content="https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/" />
+<meta property="article:published_time" content="2019-06-24T16:01:30-05:00"/>
+<meta property="article:modified_time" content="2019-06-24T16:01:30-05:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Create a Docker Image for RESTful Java Service"/>
-<meta name="twitter:description" content="How To: Create a Docker Image for RESTful Java Service"/>
+<meta name="twitter:title" content="Add Custom Validations With Lombok Builders"/>
+<meta name="twitter:description" content="Example explains how we can add custom validations with lombok builders"/>
 
 
 
-    <link rel="canonical" href="https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/">
+    <link rel="canonical" href="https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/">
 
     <title>
       
-        Create a Docker Image for RESTful Java Service - &#39;s thoughts
+        Add Custom Validations With Lombok Builders - &#39;s thoughts
       
     </title>
 
@@ -92,7 +92,7 @@
           
 <header>
     <h2 class="blog-post-title">
-    <a class="text-dark" href="/2019/06/create-a-docker-image-for-restful-java-service/">Create a Docker Image for RESTful Java Service</a>
+    <a class="text-dark" href="/2019/06/add-custom-validations-with-lombok-builders/">Add Custom Validations With Lombok Builders</a>
 </h2>
 
     
@@ -103,30 +103,28 @@
 
 <div class="blog-post-date text-secondary">
     
-        <time datetime="2019-06-14">Last modified: Jun 14, 2019</time>
+        <time datetime="2019-06-24">Last modified: Jun 24, 2019</time>
     
 </div>
 
     
-<p class="blog-post-date text-secondary">Reading time: 3  min</p>
+<p class="blog-post-date text-secondary">Reading time: 1  min</p>
 
     
 <div class="blog-post-tags text-secondary">
     <strong>Tags:</strong>
     
-        <a class="badge badge-primary" href="/tags/docker">docker</a>
-    
         <a class="badge badge-primary" href="/tags/java">java</a>
+    
+        <a class="badge badge-primary" href="/tags/lombok">lombok</a>
+    
+        <a class="badge badge-primary" href="/tags/codegen">codegen</a>
     
 </div>
 
     
 <div class="blog-post-categories text-secondary">
     <strong>Categories:</strong>
-    
-        <a class="badge badge-primary" href="/categories/devops">devops</a>
-    
-        <a class="badge badge-primary" href="/categories/container">container</a>
     
         <a class="badge badge-primary" href="/categories/java">java</a>
     
@@ -139,16 +137,13 @@
     <label for="tocToggle"><b>Table of Content:</b></label>
       <nav id="TableOfContents">
 <ul>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#create-image">Create Image</a>
+<li><a href="#introduction">Introduction</a>
 <ul>
-<li><a href="#operating-system">Operating System</a></li>
-<li><a href="#java-installlation">Java Installlation</a></li>
-<li><a href="#add-restful-service">Add RESTful Service</a></li>
+<li><a href="#heading-2">Heading 2</a>
+<ul>
+<li><a href="#heading-3">Heading 3</a></li>
 </ul></li>
-<li><a href="#build-image">Build Image</a></li>
-<li><a href="#run-image">Run Image</a></li>
-<li><a href="#references">References</a></li>
+</ul></li>
 </ul>
 </nav>
     
@@ -156,88 +151,15 @@
 
 <h1 id="introduction">Introduction</h1>
 
-<p>Docker is a container platform to build and run applications within containers. These docker containers are very light weight compared to virtual machines and are standalone software packages which can run anywhere where docker engine installed. For detailed instructions to install docker <a href="https://docs.docker.com/install/">see here</a>.</p>
+<p>Java Beans encapsulates many objects into one single object and have getters and setters to access the properties. This code is boilerplate and can be a candidate for code gen. IDEs can help in achieve this type of code as well. But for the purpose of this post lets use <a href="https://projectlombok.org">Project Lombok</a> and see how it can helps for builder pattern with validationa.</p>
 
-<p>To deploy a RESTful Java service onto a docker image we need o build the image with the following layers from bottom up.
-<img src="/img/docker-layers.png" alt="Docker Image Layers" /></p>
+<h2 id="heading-2">Heading 2</h2>
 
-<p>Here are the required software packges need to be installed</p>
+<p>Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</p>
 
-<ul>
-<li>Operating System for docker container</li>
-<li>Java</li>
-<li>RESTful Service Application</li>
-</ul>
+<h3 id="heading-3">Heading 3</h3>
 
-<h1 id="create-image">Create Image</h1>
-
-<p>Now lets create an image with the above mentioned software.</p>
-
-<p>Create a folder named <code>docker-rest-image</code>. Under this folder create a file named <code>Dockerfile</code>. Docker image builder tool (<code>docker build</code>) will read this file to build the image. See <a href="https://docs.docker.com/engine/reference/commandline/build/">here</a> for more details about building docker images.</p>
-
-<h2 id="operating-system">Operating System</h2>
-
-<p>Lets get the an OS which is very simple and small in footprint. So picking alpine linux as very small in footprint and simple.</p>
-
-<p>Now add the following line to created <code>Dockerfile</code></p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#007020;font-weight:bold">FROM</span><span style="color:#4070a0"> alpine</span></code></pre></div>
-<h2 id="java-installlation">Java Installlation</h2>
-
-<p>Now we have the base image so lets add Java to it so that our application can run using the installed Java.</p>
-
-<p>Add the following statement to <code>Dockerfile</code>.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#007020;font-weight:bold">RUN</span> apk --update add openjdk8-jre<span style="">
-</span><span style=""></span><span style="color:#007020;font-weight:bold">CMD</span><span style="color:#4070a0"> [&#34;export JAVA_HOME=`which java`&#34;]</span></code></pre></div>
-<p>The <a href="https://docs.docker.com/engine/reference/builder/#run">RUN</a> command will install the <code>openjdk8-jre</code> onto this image and <a href="https://docs.docker.com/engine/reference/builder/#cmd">CMD</a> sets  the path.</p>
-
-<h2 id="add-restful-service">Add RESTful Service</h2>
-
-<p>Until now we have the required software to run a java application, so lets add the RESTful java service to the image.</p>
-
-<p>Im using a RESTful service developed using <a href="https://www.dropwizard.io/">Dropwizard</a> as its fully contained service jar which can run without any additional servlet containers.</p>
-
-<p>Before adding a RESTful service we also need to expose the service port from the container. The <a href="https://docs.docker.com/engine/reference/builder/#expose">EXPOSE</a> command will expose the specified port.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#007020;font-weight:bold">EXPOSE</span><span style="color:#4070a0"> 8080</span></code></pre></div>
-<p>Now lets add the service jar and/or any required configuration files on to the image.</p>
-
-<p>The <a href="https://docs.docker.com/engine/reference/builder/#copy">COPY</a> commnd will copy the specified files from the <code>Dockerfile</code> folder onto the image.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">COPY configuration.yml /opt/app/<span style="">
-</span><span style=""></span>COPY rest-dropwizard-1.0-SNAPSHOT.jar /opt/app/</code></pre></div>
-<p>We need to set the <code>/opt/app/</code> as the working directory so any <code>ENTRYPOINT</code> commands will use that directory to execute OS commands.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#007020;font-weight:bold">WORKDIR</span><span style="color:#4070a0"> /opt/app/</span></code></pre></div>
-<p>We have everything what we need to start the RESTful service. The <a href="https://docs.docker.com/engine/reference/builder/#entrypoint">ENTRYPOINT</a> commands allows to execute the specified commands when a docker container starts like s startup application. So lets add the RESTful service as a startup application.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker"><span style="color:#007020;font-weight:bold">ENTRYPOINT</span><span style="color:#4070a0"> exec java -jar rest-dropwizard-1.0-SNAPSHOT.jar server configuration.yml</span></code></pre></div>
-<h1 id="build-image">Build Image</h1>
-
-<p>Lets build an image to make sure the image configuration in <code>Dockerfile</code> looks good.</p>
-
-<p>Run the <a href="https://docs.docker.com/engine/reference/commandline/build/">docker build</a> command to build the image. Before building make sure the RESTful service jars and configurations in the same folder of <code>Dockerfile</code> or configure <code>Dockerfile</code> to get them from a remote repository using <code>RUN wget</code> command.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">docker build -t docker-rest-image .</code></pre></div>
-<p>After a successful run we will see a message like the following and an image is created with specified name <code>docker-rest-image</code>.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">Step <span style="color:#40a070">7</span>/8 : EXPOSE <span style="color:#40a070">8080</span><span style="">
-</span><span style=""></span> ---&gt; Running in 2c153d49565f<span style="">
-</span><span style=""></span>Removing intermediate container 2c153d49565f<span style="">
-</span><span style=""></span> ---&gt; ecd51f3f9a6a<span style="">
-</span><span style=""></span>Step <span style="color:#40a070">8</span>/8 : ENTRYPOINT <span style="color:#007020">exec</span> java -jar rest-dropwizard-1.0-SNAPSHOT.jar server configuration.yml<span style="">
-</span><span style=""></span> ---&gt; Running in bdac565e3756<span style="">
-</span><span style=""></span>Removing intermediate container bdac565e3756<span style="">
-</span><span style=""></span> ---&gt; b6e3b102dda8<span style="">
-</span><span style=""></span>Successfully built b6e3b102dda8</code></pre></div>
-<p>The <code>docker images</code> will show the images created and we should see the one with <code>docker-rest-image</code>.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">docker-rest-image   latest              c99000cb6460        <span style="color:#40a070">42</span> seconds ago      115MB</code></pre></div>
-<h1 id="run-image">Run Image</h1>
-
-<p>The image is ready now. Lets run it. The <a href="https://docs.docker.com/engine/reference/commandline/run/">docker run</a> will start the container along with any optionally specified commands.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">docker run -p <span style="color:#40a070">8080</span>:8080 docker-rest-image</code></pre></div>
-<p>The above command will start the container and forward the port 8080 from container onto the host OS so you can hit the services using <code>http://localhost:8080</code>.</p>
-
-<h1 id="references">References</h1>
-
-<ul>
-<li>The source code can be found <a href="https://github.com/trguduru/docker-rest-image">here</a></li>
-<li><a href="https://www.docker.com">Docker</a></li>
-<li><a href="https://www.dropwizard.io/">Dropwizard</a></li>
-</ul>
+<p>At quisque litora ullamcorper maecenas ultricies ut dignissim luctus curabitur, cras congue eget primis aliquam fringilla nulla dictum posuere, vestibulum sit magnis nisl praesent eros ipsum nunc. Ligula lacus ipsum orci aenean integer pharetra habitasse interdum, porttitor etiam hac feugiat placerat morbi posuere turpis leo, quam at amet gravida commodo fringilla erat.</p>
 
 
     
@@ -245,7 +167,7 @@
     
 
 
-<a class="resp-sharing-button__link" href="https://facebook.com/sharer.php?t=Create%20a%20Docker%20Image%20for%20RESTful%20Java%20Service&amp;u=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fcreate-a-docker-image-for-restful-java-service%2f"
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer.php?t=Add%20Custom%20Validations%20With%20Lombok%20Builders&amp;u=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fadd-custom-validations-with-lombok-builders%2f"
     target="_blank" rel="noopener" aria-label="">
     <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -259,7 +181,7 @@
 
 
 <a class="resp-sharing-button__link"
-    href="https://twitter.com/intent/tweet/?text=Create%20a%20Docker%20Image%20for%20RESTful%20Java%20Service&amp;url=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fcreate-a-docker-image-for-restful-java-service%2f"
+    href="https://twitter.com/intent/tweet/?text=Add%20Custom%20Validations%20With%20Lombok%20Builders&amp;url=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fadd-custom-validations-with-lombok-builders%2f"
     target="_blank" rel="noopener" aria-label="">
     <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -273,7 +195,7 @@
 
 
 <a class="resp-sharing-button__link"
-    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fcreate-a-docker-image-for-restful-java-service%2f&amp;title=Create%20a%20Docker%20Image%20for%20RESTful%20Java%20Service"
+    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fadd-custom-validations-with-lombok-builders%2f&amp;title=Add%20Custom%20Validations%20With%20Lombok%20Builders"
     target="_blank" rel="noopener" aria-label="">
     <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -287,7 +209,7 @@
 
 
 <a class="resp-sharing-button__link"
-    href="https://reddit.com/submit/?url=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fcreate-a-docker-image-for-restful-java-service%2f&amp;resubmit=true&amp;title=Create%20a%20Docker%20Image%20for%20RESTful%20Java%20Service"
+    href="https://reddit.com/submit/?url=https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fadd-custom-validations-with-lombok-builders%2f&amp;resubmit=true&amp;title=Add%20Custom%20Validations%20With%20Lombok%20Builders"
     target="_blank" rel="noopener" aria-label="">
     <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -301,7 +223,7 @@
 
 
 <a class="resp-sharing-button__link"
-    href="mailto:?subject=Create%20a%20Docker%20Image%20for%20RESTful%20Java%20Service&amp;body=Take a loot at this article: https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fcreate-a-docker-image-for-restful-java-service%2f"
+    href="mailto:?subject=Add%20Custom%20Validations%20With%20Lombok%20Builders&amp;body=Take a loot at this article: https%3a%2f%2ftrguduru.github.io%2f2019%2f06%2fadd-custom-validations-with-lombok-builders%2f"
     target="_self" rel="noopener" aria-label="">
     <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
         <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -516,6 +438,13 @@ border-color: #3a80c1;
 </style>
 
     
+
+    <h4>See also</h4>
+    <ul>
+        
+            <li><a href="/2019/06/create-a-docker-image-for-restful-java-service/">Create a Docker Image for RESTful Java Service</a></li>
+        
+    </ul>
 
     
     

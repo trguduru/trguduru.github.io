@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>java on tguduru&#39;s thoughts</title>
+    <title>java on &#39;s thoughts</title>
     <link>https://trguduru.github.io/categories/java/</link>
-    <description>Recent content in java on tguduru&#39;s thoughts</description>
+    <description>Recent content in java on &#39;s thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Guduru Thirupathi Reddy</copyright>
-    <lastBuildDate>Fri, 14 Jun 2019 22:50:40 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2019 16:01:30 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Add Custom Validations With Lombok Builders</title>
+      <link>https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/</link>
+      <pubDate>Mon, 24 Jun 2019 16:01:30 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/</guid>
+      <description>Introduction Java Beans encapsulates many objects into one single object and have getters and setters to access the properties. This code is boilerplate and can be a candidate for code gen. IDEs can help in achieve this type of code as well. But for the purpose of this post lets use Project Lombok and see how it can helps for builder pattern with validationa.
+Heading 2 Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</description>
+    </item>
     
     <item>
       <title>Create a Docker Image for RESTful Java Service</title>

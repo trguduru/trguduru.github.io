@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on tguduru&#39;s thoughts</title>
+    <title>Tags on &#39;s thoughts</title>
     <link>https://trguduru.github.io/tags/</link>
-    <description>Recent content in Tags on tguduru&#39;s thoughts</description>
+    <description>Recent content in Tags on &#39;s thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Guduru Thirupathi Reddy</copyright>
-    <lastBuildDate>Fri, 14 Jun 2019 22:50:40 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 24 Jun 2019 16:01:30 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>codegen</title>
+      <link>https://trguduru.github.io/tags/codegen/</link>
+      <pubDate>Mon, 24 Jun 2019 16:01:30 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/codegen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://trguduru.github.io/tags/java/</link>
+      <pubDate>Mon, 24 Jun 2019 16:01:30 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lombok</title>
+      <link>https://trguduru.github.io/tags/lombok/</link>
+      <pubDate>Mon, 24 Jun 2019 16:01:30 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/tags/lombok/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>docker</title>
@@ -17,15 +44,6 @@
       <pubDate>Fri, 14 Jun 2019 22:50:40 -0500</pubDate>
       
       <guid>https://trguduru.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>java</title>
-      <link>https://trguduru.github.io/tags/java/</link>
-      <pubDate>Fri, 14 Jun 2019 22:50:40 -0500</pubDate>
-      
-      <guid>https://trguduru.github.io/tags/java/</guid>
       <description></description>
     </item>
     
