@@ -26,7 +26,7 @@
 
     <title>
       
-        Add Custom Validations With Lombok Builders - &#39;s thoughts
+        Add Custom Validations With Lombok Builders - thiru&#39;s thoughts
       
     </title>
 
@@ -45,14 +45,14 @@
       
 
 <header class="blog-header">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="/">
             <img src="https://avatars2.githubusercontent.com/u/47073528?s=460&v=4" width="30" height="30"
     class="d-inline-block align-top img--circle img--headshot" alt="">
-&#39;s thoughts
+thiru&#39;s thoughts
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
@@ -61,27 +61,27 @@
                 
                 <li class="nav-item ">
                     
-                        <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                     
                 </li>
                 
                 <li class="nav-item ">
                     
-                        <a class="nav-link" href="/about/">About</a>
-                    
-                </li>
-                
-                <li class="nav-item ">
-                    
-                        <a class="nav-link" href="/contact/">Contact</a>
+                    <a class="nav-link" href="/about/">About</a>
                     
                 </li>
                 
             </ul>
+            <ul class="navbar-nav">
+                <li><a href="https://github.com/trguduru"><img src="/img/github.png"></a></li>
+                <li><a href="https://twitter.com/tguduru"><img
+                            src="/img/twitter.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/tguduru/"><img
+                            src="/img/linkedin.png"></a></li>
+            </ul>
         </div>
     </nav>
 </header>
-
     
 
     
@@ -96,7 +96,7 @@
 </h2>
 
     
-<span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary" href="/contact">Guduru Thirupathi Reddy</a><br>
+<span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary" href="/about">Guduru Thirupathi Reddy</a><br>
 
     
 
@@ -108,7 +108,7 @@
 </div>
 
     
-<p class="blog-post-date text-secondary">Reading time: 1  min</p>
+<p class="blog-post-date text-secondary">Reading time: 2  min</p>
 
     
 <div class="blog-post-tags text-secondary">
@@ -137,13 +137,9 @@
     <label for="tocToggle"><b>Table of Content:</b></label>
       <nav id="TableOfContents">
 <ul>
-<li><a href="#introduction">Introduction</a>
-<ul>
-<li><a href="#heading-2">Heading 2</a>
-<ul>
-<li><a href="#heading-3">Heading 3</a></li>
-</ul></li>
-</ul></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#see-it-in-action">See It In Action</a></li>
+<li><a href="#references">References</a></li>
 </ul>
 </nav>
     
@@ -151,15 +147,84 @@
 
 <h1 id="introduction">Introduction</h1>
 
-<p>Java Beans encapsulates many objects into one single object and have getters and setters to access the properties. This code is boilerplate and can be a candidate for code gen. IDEs can help in achieve this type of code as well. But for the purpose of this post lets use <a href="https://projectlombok.org">Project Lombok</a> and see how it can helps for builder pattern with validationa.</p>
+<p><a href="https://projectlombok.org">Project Lombok</a> will be able to generate the builder pattern class to make a java bean as immutable. But for some use cases you might need to add custom property validations while building an object. Lets go through lombok features to see how it can help us solve this.</p>
 
-<h2 id="heading-2">Heading 2</h2>
+<h1 id="see-it-in-action">See It In Action</h1>
 
-<p>Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</p>
+<p>Lombok won&rsquo;t generate any code if you implement something to complement with it&rsquo;s code generation like getters, setter or any other methods. Lets use this feature to solve the custom validations within builders.</p>
 
-<h3 id="heading-3">Heading 3</h3>
+<p>Lets say we have a <code>Customer</code> class like this.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">Customer</span> <span style="color:#666">{</span>
+    <span style="color:#007020;font-weight:bold">private</span> <span style="color:#902000">long</span> id<span style="color:#666">;</span>
+    <span style="color:#007020;font-weight:bold">private</span> String name<span style="color:#666">;</span>
+<span style="color:#666">}</span></code></pre></div>
+<p>Now we would like to make it as an immutable class with builder pattern so lombok can generate it for us. Inorder to do this we need to add <code>@Builder</code> annotation for this class.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#555;font-weight:bold">@Getter</span>
+<span style="color:#555;font-weight:bold">@EqualsAndHashCode</span>
+<span style="color:#555;font-weight:bold">@ToString</span>
+<span style="color:#555;font-weight:bold">@Builder</span><span style="color:#666">(</span>builderClassName <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Builder&#34;</span><span style="color:#666">)</span>
+<span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">Customer</span> <span style="color:#666">{</span>
+    <span style="color:#007020;font-weight:bold">private</span> <span style="color:#902000">long</span> id<span style="color:#666">;</span>
+    <span style="color:#007020;font-weight:bold">private</span> String name<span style="color:#666">;</span>
+<span style="color:#666">}</span></code></pre></div>
+<p>We have a builder ready for us now but without any validations of <code>Customer</code> properties. Lets imagine for our case we need to add validations like <code>id</code> cannot negative or zero and <code>name</code> cannot be null or empty.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#555;font-weight:bold">@Getter</span>
+<span style="color:#555;font-weight:bold">@EqualsAndHashCode</span>
+<span style="color:#555;font-weight:bold">@ToString</span>
+<span style="color:#555;font-weight:bold">@Builder</span><span style="color:#666">(</span>builderClassName <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Builder&#34;</span><span style="color:#666">,</span>buildMethodName <span style="color:#666">=</span> <span style="color:#4070a0">&#34;build&#34;</span><span style="color:#666">)</span>
+<span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">Customer</span> <span style="color:#666">{</span>
+    <span style="color:#007020;font-weight:bold">private</span> <span style="color:#902000">long</span> id<span style="color:#666">;</span>
+    <span style="color:#007020;font-weight:bold">private</span> String name<span style="color:#666">;</span>
 
-<p>At quisque litora ullamcorper maecenas ultricies ut dignissim luctus curabitur, cras congue eget primis aliquam fringilla nulla dictum posuere, vestibulum sit magnis nisl praesent eros ipsum nunc. Ligula lacus ipsum orci aenean integer pharetra habitasse interdum, porttitor etiam hac feugiat placerat morbi posuere turpis leo, quam at amet gravida commodo fringilla erat.</p>
+    <span style="color:#007020;font-weight:bold">static</span> <span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">Builder</span> <span style="color:#666">{</span>
+        Customer <span style="color:#06287e">build</span><span style="color:#666">()</span> <span style="color:#666">{</span>
+            <span style="color:#007020;font-weight:bold">if</span> <span style="color:#666">(</span>id <span style="color:#666">&lt;</span> 0<span style="color:#666">)</span> <span style="color:#666">{</span>
+                <span style="color:#007020;font-weight:bold">throw</span> <span style="color:#007020;font-weight:bold">new</span> RuntimeException<span style="color:#666">(</span><span style="color:#4070a0">&#34;Invaid id&#34;</span><span style="color:#666">);</span>
+            <span style="color:#666">}</span>
+            <span style="color:#007020;font-weight:bold">if</span> <span style="color:#666">(</span>Objects<span style="color:#666">.</span><span style="color:#4070a0">isNull</span><span style="color:#666">(</span>name<span style="color:#666">))</span> <span style="color:#666">{</span>
+                <span style="color:#007020;font-weight:bold">throw</span> <span style="color:#007020;font-weight:bold">new</span> RuntimeException<span style="color:#666">(</span><span style="color:#4070a0">&#34;name is null&#34;</span><span style="color:#666">);</span>
+            <span style="color:#666">}</span>
+            <span style="color:#007020;font-weight:bold">return</span> <span style="color:#007020;font-weight:bold">new</span> Customer<span style="color:#666">(</span>id<span style="color:#666">,</span> name<span style="color:#666">);</span>
+        <span style="color:#666">}</span>
+    <span style="color:#666">}</span>
+<span style="color:#666">}</span></code></pre></div>
+<p>Remeber we said that lombok won&rsquo;t generate the code which we implemented for, here we have implemented the <code>build</code> method inside the <code>Builder</code> class and we specified that use the <code>build</code> as <code>buildMethodName</code> using lombok annotations so lombok won&rsquo;t generate the <code>build</code> method instead simply use the one we implemented.</p>
+
+<p>Lets a write some tests to make sure this will work.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#007020;font-weight:bold">public</span> <span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">CustomerTest</span> <span style="color:#666">{</span>
+
+    <span style="color:#555;font-weight:bold">@Rule</span>
+    <span style="color:#007020;font-weight:bold">public</span> ExpectedException expectedException <span style="color:#666">=</span> ExpectedException<span style="color:#666">.</span><span style="color:#4070a0">none</span><span style="color:#666">();</span>
+
+    <span style="color:#555;font-weight:bold">@Test</span>
+    <span style="color:#007020;font-weight:bold">public</span> <span style="color:#902000">void</span> <span style="color:#06287e">testValidCustomer</span><span style="color:#666">()</span> <span style="color:#666">{</span>
+        Customer<span style="color:#666">.</span><span style="color:#4070a0">Builder</span> customer <span style="color:#666">=</span> Customer<span style="color:#666">.</span><span style="color:#4070a0">builder</span><span style="color:#666">();</span>
+        customer<span style="color:#666">.</span><span style="color:#4070a0">id</span><span style="color:#666">(</span>100<span style="color:#666">);</span>
+        customer<span style="color:#666">.</span><span style="color:#4070a0">name</span><span style="color:#666">(</span><span style="color:#4070a0">&#34;bob&#34;</span><span style="color:#666">);</span>
+        Assert<span style="color:#666">.</span><span style="color:#4070a0">assertNotNull</span><span style="color:#666">(</span><span style="color:#4070a0">&#34;Customer not built&#34;</span><span style="color:#666">,</span> customer<span style="color:#666">.</span><span style="color:#4070a0">build</span><span style="color:#666">());</span>
+    <span style="color:#666">}</span>
+
+    <span style="color:#555;font-weight:bold">@Test</span>
+    <span style="color:#007020;font-weight:bold">public</span> <span style="color:#902000">void</span> <span style="color:#06287e">testInvalidCustomer</span><span style="color:#666">()</span> <span style="color:#666">{</span>
+        expectedException<span style="color:#666">.</span><span style="color:#4070a0">expect</span><span style="color:#666">(</span>RuntimeException<span style="color:#666">.</span><span style="color:#4070a0">class</span><span style="color:#666">);</span>
+        expectedException<span style="color:#666">.</span><span style="color:#4070a0">expectMessage</span><span style="color:#666">(</span><span style="color:#4070a0">&#34;name is null&#34;</span><span style="color:#666">);</span>
+        Customer<span style="color:#666">.</span><span style="color:#4070a0">Builder</span> customer <span style="color:#666">=</span> Customer<span style="color:#666">.</span><span style="color:#4070a0">builder</span><span style="color:#666">();</span>
+        customer<span style="color:#666">.</span><span style="color:#4070a0">id</span><span style="color:#666">(</span>100<span style="color:#666">);</span>
+        Assert<span style="color:#666">.</span><span style="color:#4070a0">assertNull</span><span style="color:#666">(</span><span style="color:#4070a0">&#34;Customer shouldn&#39;t built&#34;</span><span style="color:#666">,</span> customer<span style="color:#666">.</span><span style="color:#4070a0">build</span><span style="color:#666">());</span>
+    <span style="color:#666">}</span>
+<span style="color:#666">}</span></code></pre></div>
+<p>I have two tests <code>testValidCustomer</code> for valid customer and <code>testInvalidCustomer</code> for invalid where not providing the name, both tests passed as expected.</p>
+
+<p>This way we can add any type of validations we want with lombok with eliminating lot of boilerplate code.
+There are other alternatvies for this type of use cases which eliminate boilerplate code like immutables, AutoValue etc&hellip;</p>
+
+<h1 id="references">References</h1>
+
+<ul>
+<li><a href="https://github.com/trguduru/lombok-examples">Github Source Code</a></li>
+<li><a href="https://projectlombok.org/features/Builder">Lombok Builder</a></li>
+<li><a href="https://projectlombok.org/setup/maven">Lombok Maven Integration</a></li>
+</ul>
 
 
     
@@ -549,13 +614,13 @@ border-color: #3a80c1;
     window.onload = function myFunction() {
         var d = new Date();
         var n = d.getFullYear();
-        document.getElementById("year").innerHTML = '<i>Copyright &copy; ' + n +' <a href="/contact">'+ "Guduru Thirupathi Reddy" + '</a>. All rights reserved. </i>';
+        document.getElementById("year").innerHTML = '<i>Copyright &copy; ' + n +' <a href="/about">'+ "Guduru Thirupathi Reddy" + '</a>. All rights reserved. </i>';
     }
 </script>
 
 
 <footer class="blog-footer-relative w-100">
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-light bg-light">
         <p class="w-100 text-center text-secondary" id="year"></p>
         <p class="w-100 text-center"><a href="#">Back to top</a></p>
     </nav>

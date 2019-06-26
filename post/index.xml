@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on &#39;s thoughts</title>
+    <title>Posts on thiru&#39;s thoughts</title>
     <link>https://trguduru.github.io/post/</link>
-    <description>Recent content in Posts on &#39;s thoughts</description>
+    <description>Recent content in Posts on thiru&#39;s thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Guduru Thirupathi Reddy</copyright>
     <lastBuildDate>Mon, 24 Jun 2019 16:01:30 -0500</lastBuildDate>
@@ -17,8 +17,8 @@
       <pubDate>Mon, 24 Jun 2019 16:01:30 -0500</pubDate>
       
       <guid>https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/</guid>
-      <description>Introduction Java Beans encapsulates many objects into one single object and have getters and setters to access the properties. This code is boilerplate and can be a candidate for code gen. IDEs can help in achieve this type of code as well. But for the purpose of this post lets use Project Lombok and see how it can helps for builder pattern with validationa.
-Heading 2 Sollicitudin ornare odio blandit aenean enim lacus accumsan elementum vestibulum porta mauris lorem, ullamcorper class fermentum sem hendrerit ante augue penatibus scelerisque felis leo proin,ad nascetur venenatis sodales dignissim viverra suspendisse turpis convallis condimentum sapien.</description>
+      <description>Introduction Project Lombok will be able to generate the builder pattern class to make a java bean as immutable. But for some use cases you might need to add custom property validations while building an object. Lets go through lombok features to see how it can help us solve this.
+See It In Action Lombok won&amp;rsquo;t generate any code if you implement something to complement with it&amp;rsquo;s code generation like getters, setter or any other methods.</description>
     </item>
     
     <item>
