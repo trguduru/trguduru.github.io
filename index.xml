@@ -38,7 +38,7 @@ See It In Action Lombok doesn&amp;rsquo;t generate any code if you implement som
       
       <guid>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</guid>
       <description>Introduction Docker is a container platform to build and run applications within containers. These docker containers are very light weight compared to virtual machines and are standalone software packages which can run anywhere where docker engine installed. For detailed instructions to install docker see here.
-To deploy a RESTful Java service onto a docker image we need to build a image with the following layers from bottom up. Here are the required software packges need to be installed</description>
+To deploy a RESTful Java service onto a docker image we need to build an image with the following layers from bottom up. Here are the required software packges need to be installed</description>
     </item>
     
     <item>
