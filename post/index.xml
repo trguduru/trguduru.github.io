@@ -6,10 +6,20 @@
     <description>Recent content in Posts on thiru&#39;s thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Guduru Thirupathi Reddy</copyright>
-    <lastBuildDate>Mon, 24 Jun 2019 16:01:30 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 12:18:05 -0500</lastBuildDate>
     
 	<atom:link href="https://trguduru.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java Code Formatting Maven Plugin</title>
+      <link>https://trguduru.github.io/2019/06/java-code-formatting-maven-plugin/</link>
+      <pubDate>Wed, 26 Jun 2019 12:18:05 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/2019/06/java-code-formatting-maven-plugin/</guid>
+      <description>The problem In today&amp;rsquo;s world there are so many IDEs to choose from to develop Java applications and the IDEs have variety of code formatting configurations, sometimes it very hard to be consistent with code formatting.
+The other important thing is when a developer modifies code and the IDEs reformats the code, with this its very hard to understand whats the modified code while looping at a pull request or code review since its includes the code formatting changes as well.</description>
+    </item>
     
     <item>
       <title>Add Custom Validations With Lombok Builders</title>
@@ -18,7 +28,7 @@
       
       <guid>https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/</guid>
       <description>Introduction Project Lombok will be able to generate the builder pattern class to make a java bean as immutable. But for some use cases you might need to add custom property validations while building an object. Lets go through lombok features to see how it can help us solve this.
-See It In Action Lombok won&amp;rsquo;t generate any code if you implement something to complement with it&amp;rsquo;s code generation like getters, setter or any other methods.</description>
+See It In Action Lombok doesn&amp;rsquo;t generate any code if you implement something to complement with it&amp;rsquo;s code generation like getters, setter or any other methods.</description>
     </item>
     
     <item>
@@ -28,7 +38,7 @@ See It In Action Lombok won&amp;rsquo;t generate any code if you implement somet
       
       <guid>https://trguduru.github.io/2019/06/create-a-docker-image-for-restful-java-service/</guid>
       <description>Introduction Docker is a container platform to build and run applications within containers. These docker containers are very light weight compared to virtual machines and are standalone software packages which can run anywhere where docker engine installed. For detailed instructions to install docker see here.
-To deploy a RESTful Java service onto a docker image we need o build the image with the following layers from bottom up. Here are the required software packges need to be installed</description>
+To deploy a RESTful Java service onto a docker image we need to build a image with the following layers from bottom up. Here are the required software packges need to be installed</description>
     </item>
     
   </channel>

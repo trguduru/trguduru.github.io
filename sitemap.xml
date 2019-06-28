@@ -3,26 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/</loc>
-    <lastmod>2019-06-24T16:01:30-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://trguduru.github.io/categories/</loc>
-    <lastmod>2019-06-24T16:01:30-05:00</lastmod>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://trguduru.github.io/2019/06/java-code-formatting-maven-plugin/</loc>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://trguduru.github.io/post/</loc>
-    <lastmod>2019-06-24T16:01:30-05:00</lastmod>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://trguduru.github.io/tags/</loc>
-    <lastmod>2019-06-24T16:01:30-05:00</lastmod>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/java/</loc>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/maven/</loc>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/</loc>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/categories/tools/</loc>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/tags/tools/</loc>
+    <lastmod>2019-06-26T12:18:05-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/</loc>
+    <lastmod>2019-06-24T16:01:30-05:00</lastmod>
   </url>
   
   <url>
@@ -38,19 +73,7 @@
   </url>
   
   <url>
-    <loc>https://trguduru.github.io/tags/java/</loc>
-    <lastmod>2019-06-24T16:01:30-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://trguduru.github.io/tags/lombok/</loc>
-    <lastmod>2019-06-24T16:01:30-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://trguduru.github.io/</loc>
     <lastmod>2019-06-24T16:01:30-05:00</lastmod>
     <priority>0</priority>
   </url>

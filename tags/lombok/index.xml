@@ -18,7 +18,7 @@
       
       <guid>https://trguduru.github.io/2019/06/add-custom-validations-with-lombok-builders/</guid>
       <description>Introduction Project Lombok will be able to generate the builder pattern class to make a java bean as immutable. But for some use cases you might need to add custom property validations while building an object. Lets go through lombok features to see how it can help us solve this.
-See It In Action Lombok won&amp;rsquo;t generate any code if you implement something to complement with it&amp;rsquo;s code generation like getters, setter or any other methods.</description>
+See It In Action Lombok doesn&amp;rsquo;t generate any code if you implement something to complement with it&amp;rsquo;s code generation like getters, setter or any other methods.</description>
     </item>
     
   </channel>

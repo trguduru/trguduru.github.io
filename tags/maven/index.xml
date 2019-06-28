@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maven on thiru&#39;s thoughts</title>
+    <link>https://trguduru.github.io/tags/maven/</link>
+    <description>Recent content in maven on thiru&#39;s thoughts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Guduru Thirupathi Reddy</copyright>
+    <lastBuildDate>Wed, 26 Jun 2019 12:18:05 -0500</lastBuildDate>
+    
+	<atom:link href="https://trguduru.github.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java Code Formatting Maven Plugin</title>
+      <link>https://trguduru.github.io/2019/06/java-code-formatting-maven-plugin/</link>
+      <pubDate>Wed, 26 Jun 2019 12:18:05 -0500</pubDate>
+      
+      <guid>https://trguduru.github.io/2019/06/java-code-formatting-maven-plugin/</guid>
+      <description>The problem In today&amp;rsquo;s world there are so many IDEs to choose from to develop Java applications and the IDEs have variety of code formatting configurations, sometimes it very hard to be consistent with code formatting.
+The other important thing is when a developer modifies code and the IDEs reformats the code, with this its very hard to understand whats the modified code while looping at a pull request or code review since its includes the code formatting changes as well.</description>
+    </item>
+    
+  </channel>
+</rss>
