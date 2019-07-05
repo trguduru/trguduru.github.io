@@ -15,7 +15,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://trguduru.github.io/" />
 
-<meta property="og:updated_time" content="2019-06-26T12:18:05-05:00"/>
+<meta property="og:updated_time" content="2019-07-01T12:20:21-05:00"/>
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="thiru&#39;s thoughts"/>
@@ -77,6 +77,7 @@ thiru&#39;s thoughts
             </ul>
             <ul class="navbar-nav">
                 <li><a href="https://github.com/trguduru"><img src="/img/github.png"></a></li>
+                <li><a href="https://bitbucket.org/tguduru"><img src="/img/bitbucket.png"></a></li>
                 <li><a href="https://twitter.com/tguduru"><img
                             src="/img/twitter.png"></a></li>
                 <li><a href="https://www.linkedin.com/in/tguduru/"><img
@@ -105,21 +106,73 @@ thiru&#39;s thoughts
         <article class="blog-post">
     <header>
         <h2 class="blog-post-title">
-    <a class="text-dark" href="/2019/06/java-code-formatting-maven-plugin/">Java Code Formatting Maven Plugin</a>
+    <a class="text-dark" href="/2019/07/java-bean-mappings-using-mapstruct/">Java Bean Mappings Using MapStruct</a>
 </h2>
-
-        
-<span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary" href="/about">Guduru Thirupathi Reddy</a><br>
 
         
 
 
 <div class="blog-post-date text-secondary">
     
-        <time datetime="2019-06-26">Last modified: Jun 26, 2019</time>
+    <time datetime="2019-07-01">Last modified: Jul 1, 2019</time>
+     |
+    <span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary"
+        href="/about">Guduru Thirupathi Reddy</a> | <span class="blog-post-date text-secondary">Reading time: 3  min
+        </span>
+      
+</div>
+        
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tags/java">java</a>
+    
+        <a class="badge badge-primary" href="/tags/mapstruct">mapstruct</a>
+    
+        <a class="badge badge-primary" href="/tags/codegen">codegen</a>
     
 </div>
 
+        
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/categories/java">java</a>
+    
+</div>
+
+        <p></p>
+    </header>
+    The Problem Often times we have a need to map one java object into another one, for example internal entities (persistent models) into DTO(Document Transfer Objects) objects.
+For this type use cases we mostly use getters and setters to translate data between objects. This seems like tedious when there are so many properties and also a lot of boilerplate code that you need to maintain when there is a new property is added or removed.
+    
+    <p></p>
+    <a href="/2019/07/java-bean-mappings-using-mapstruct/">Read More →</a>
+    
+</article>
+    
+
+
+
+    
+        <article class="blog-post">
+    <header>
+        <h2 class="blog-post-title">
+    <a class="text-dark" href="/2019/06/java-code-formatting-maven-plugin/">Java Code Formatting Maven Plugin</a>
+</h2>
+
+        
+
+
+<div class="blog-post-date text-secondary">
+    
+    <time datetime="2019-06-26">Last modified: Jun 26, 2019</time>
+     |
+    <span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary"
+        href="/about">Guduru Thirupathi Reddy</a> | <span class="blog-post-date text-secondary">Reading time: 3  min
+        </span>
+      
+</div>
         
 <div class="blog-post-tags text-secondary">
     <strong>Tags:</strong>
@@ -140,6 +193,7 @@ thiru&#39;s thoughts
     
 </div>
 
+        <p></p>
     </header>
     The problem In today&rsquo;s world there are so many IDEs to choose from to develop Java applications and the IDEs have variety of code formatting configurations, sometimes it very hard to be consistent with code formatting.
 The other important thing is when a developer modifies code and the IDEs reformats the code, with this its very hard to understand whats the modified code while looping at a pull request or code review since its includes the code formatting changes as well.
@@ -160,17 +214,17 @@ The other important thing is when a developer modifies code and the IDEs reforma
 </h2>
 
         
-<span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary" href="/about">Guduru Thirupathi Reddy</a><br>
-
-        
 
 
 <div class="blog-post-date text-secondary">
     
-        <time datetime="2019-06-24">Last modified: Jun 24, 2019</time>
-    
+    <time datetime="2019-06-24">Last modified: Jun 24, 2019</time>
+     |
+    <span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary"
+        href="/about">Guduru Thirupathi Reddy</a> | <span class="blog-post-date text-secondary">Reading time: 2  min
+        </span>
+      
 </div>
-
         
 <div class="blog-post-tags text-secondary">
     <strong>Tags:</strong>
@@ -191,6 +245,7 @@ The other important thing is when a developer modifies code and the IDEs reforma
     
 </div>
 
+        <p></p>
     </header>
     Introduction Project Lombok will be able to generate the builder pattern class to make a java bean as immutable. But for some use cases you might need to add custom property validations while building an object. Lets go through lombok features to see how it can help us solve this.
 See It In Action Lombok doesn&rsquo;t generate any code if you implement something to complement with it&rsquo;s code generation like getters, setter or any other methods.
@@ -211,17 +266,17 @@ See It In Action Lombok doesn&rsquo;t generate any code if you implement somethi
 </h2>
 
         
-<span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary" href="/about">Guduru Thirupathi Reddy</a><br>
-
-        
 
 
 <div class="blog-post-date text-secondary">
     
-        <time datetime="2019-06-14">Last modified: Jun 14, 2019</time>
-    
+    <time datetime="2019-06-14">Last modified: Jun 14, 2019</time>
+     |
+    <span class="blog-post-date text-secondary">by</span> <a class="blog-post-date text-primary"
+        href="/about">Guduru Thirupathi Reddy</a> | <span class="blog-post-date text-secondary">Reading time: 3  min
+        </span>
+      
 </div>
-
         
 <div class="blog-post-tags text-secondary">
     <strong>Tags:</strong>
@@ -244,6 +299,7 @@ See It In Action Lombok doesn&rsquo;t generate any code if you implement somethi
     
 </div>
 
+        <p></p>
     </header>
     Introduction Docker is a container platform to build and run applications within containers. These docker containers are very light weight compared to virtual machines and are standalone software packages which can run anywhere where docker engine installed. For detailed instructions to install docker see here.
 To deploy a RESTful Java service onto a docker image we need to build an image with the following layers from bottom up. Here are the required software packges need to be installed
@@ -274,10 +330,16 @@ To deploy a RESTful Java service onto a docker image we need to build an image w
         
             
             <li>
-                <a href="/2019/06/java-code-formatting-maven-plugin/">Java Code Formatting Maven Plugin</a>
+                <a href="/2019/07/java-bean-mappings-using-mapstruct/">Java Bean Mappings Using MapStruct</a>
             </li>
             
         
+            
+        
+            
+            <li>
+                <a href="/2019/06/java-code-formatting-maven-plugin/">Java Code Formatting Maven Plugin</a>
+            </li>
             
         
             
@@ -327,6 +389,8 @@ To deploy a RESTful Java service onto a docker image we need to build an image w
             <a class="badge badge-primary" href="/tags/java">java</a>
             
             <a class="badge badge-primary" href="/tags/lombok">lombok</a>
+            
+            <a class="badge badge-primary" href="/tags/mapstruct">mapstruct</a>
             
             <a class="badge badge-primary" href="/tags/maven">maven</a>
             
