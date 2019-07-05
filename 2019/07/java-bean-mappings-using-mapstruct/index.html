@@ -269,7 +269,7 @@ thiru&#39;s thoughts
 
 <p><code>MapStruct</code> provides a lot of features which helps us in mapping complex java beans, see the <a href="http://mapstruct.org/documentation/">documentation</a> for more details.</p>
 
-<p><strong>Note:</strong> Please evaluate the performance of the mapper compared to traditional getters &amp; setters. Getting <code>Mapper</code> instance though the <code>mapper</code> library is little bit costly so i would suggest to use the generated code instead and do the mapping. Im not sure whether this approach works for all the features of <code>mapstruct</code> or not as i haven&rsquo;t evaluted them.</p>
+<p><strong>Note:</strong> Please evaluate the performance of the mapper compared to traditional getters &amp; setters. Getting <code>Mapper</code> instance through the <code>mapstruct</code> library is little bit costly for the first time when its loading into jvm so i would suggest to use the generated code instead and do the mapping if its a concern. Im not sure whether this approach works for all the features of <code>mapstruct</code> or not as i haven&rsquo;t evaluted them.</p>
 
 <p>Below code snippet show an example of it.</p>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    CustomerSource customerSource <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> CustomerSource<span style="color:#666">();</span>
